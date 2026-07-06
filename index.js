@@ -30,10 +30,10 @@ function calculate(){
         Math.floor(elapsedDays / 7);
 
     const fivePercent =
-        amount * 0.05;
+        amount * 0.08;
 
     const weeklyPenalty =
-        amount * 0.10 * weeks;
+        amount * 0.12 * weeks;
 
     const totalPenalty =
         fivePercent + weeklyPenalty;
